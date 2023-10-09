@@ -5,6 +5,8 @@
 
 The Linux Maintenance Wizard is a colorful and interactive Bash script designed to streamline your Linux package management. The script includes options for updating packages, upgrading packages, and cleaning up, all presented in an easy-to-use interactive menu. With colorful text and emojis, this script makes maintaining your Linux system a breeze.
 
+![Demo](Demo.png)
+
 ## Features
 
 - 🌈 Colorful and Interactive UI

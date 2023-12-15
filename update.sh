@@ -10,10 +10,10 @@ CYAN="\e[36m"
 END="\e[0m"
 
 # Initialize Emojis
-SUCCESS="👍"
-FAIL="👎"
-INFO="ℹ️"
-QUESTION="❓"
+SUCCESS="👍 "
+FAIL="👎 "
+INFO="ℹ️ "
+QUESTION="❓ "
 
 # Function to print header
 print_header() {

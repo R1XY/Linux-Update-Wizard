@@ -27,7 +27,7 @@ The Linux Maintenance Wizard is a colorful and interactive Bash script designed 
 2. Navigate to the script's directory:
 
     ```bash
-    cd Linux-Maintenance-Wizard
+    cd Linux-Update-Wizard
     ```
 
 3. Make the script executable:

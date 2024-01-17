@@ -18,7 +18,7 @@ QUESTION="❓ "
 # Function to print header
 print_header() {
   echo -e "${CYAN}########################################${END}"
-  echo -e "${CYAN}###### Linux Maintenance Wizard #########${END}"
+  echo -e "${CYAN}###### Linux Update Wizard #############${END}"
   echo -e "${CYAN}########################################${END}"
 }
 
@@ -39,13 +39,12 @@ execute_and_print() {
 
 # Function to handle package updates
 handle_updates() {
-  execute_and_print "Updating Packages" "sudo apt update"
+  execute_and_print "Updating Packages" "sudo -E apt update"
 }
 
 # Function to handle package upgrades
 handle_upgrades() {
   execute_and_print "Upgrading Packages" "sudo -E apt upgrade -y"
-  execute_and_print "Performing Distribution Upgrades" "sudo -E apt dist-upgrade -y"
 }
 
 # Function to handle cleanup

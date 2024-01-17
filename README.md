@@ -21,7 +21,7 @@ The Linux Maintenance Wizard is a colorful and interactive Bash script designed 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/R1XY/Linux-Maintenance-Wizard.git
+    git clone https://github.com/R1XY/Linux-Update-Wizard.git
     ```
 
 2. Navigate to the script's directory:

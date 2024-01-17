@@ -44,8 +44,8 @@ handle_updates() {
 
 # Function to handle package upgrades
 handle_upgrades() {
-  execute_and_print "Upgrading Packages" "sudo apt upgrade -y"
-  execute_and_print "Performing Distribution Upgrades" "sudo apt dist-upgrade -y"
+  execute_and_print "Upgrading Packages" "sudo -E apt upgrade -y"
+  execute_and_print "Performing Distribution Upgrades" "sudo -E apt dist-upgrade -y"
 }
 
 # Function to handle cleanup

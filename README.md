@@ -1,5 +1,5 @@
 
-# Linux Maintenance Wizard
+# Linux Update Wizard
 
 ## Overview
 

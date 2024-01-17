@@ -21,7 +21,7 @@ The Linux Maintenance Wizard is a colorful and interactive Bash script designed 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YourUsername/Linux-Maintenance-Wizard.git
+    git clone https://github.com/R1XY/Linux-Maintenance-Wizard.git
     ```
 
 2. Navigate to the script's directory:
@@ -33,7 +33,7 @@ The Linux Maintenance Wizard is a colorful and interactive Bash script designed 
 3. Make the script executable:
 
     ```bash
-    chmod +x linux_maintenance_wizard.sh
+    chmod +x update.sh
     ```
 
 ## Usage
@@ -41,7 +41,7 @@ The Linux Maintenance Wizard is a colorful and interactive Bash script designed 
 To run the script, simply execute:
 
 ```bash
-./linux_maintenance_wizard.sh
+./update.sh
 ```
 
 Follow the on-screen prompts to complete the tasks.
